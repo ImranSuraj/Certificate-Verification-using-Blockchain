@@ -1,0 +1,214 @@
+
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+     background-image: url("image.jpeg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     opacity: 1;
+    
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    height:9%;
+    background-color: #505d61;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+header a{
+    color: #fff;
+    font-weight:normal ;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+header a:hover{
+	color:#c0d96f;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    font-size: 18px;
+	font-weight:normal ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu li a:hover{
+	color:#c0d96f;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+#fileselector{
+
+    width:250px;
+    height:40px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    background-color:#003 ;
+    padding:6px 4px 0px 4px;
+    color:#fff;
+    font-size:18px;
+    font-family:sans-serif;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    border-radius: 4px;;
+}
+.registration-form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+}
+.registration-form1{
+     position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:390px;
+
+
+}
+.registration-form h1,.registration-form1 h1{
+    font-size:30px;
+    text-align:center;
+    text-transform:uppercase;
+    margin:20px 0;
+}
+.registration-form p,.registration-form1 p{
+    font-size:23px;
+    margin:10px 0;
+}
+.registration-form input,.registration-form1 input{
+    font-size:16px;
+    padding: 10px 8px;
+    width:100%;
+    border:0;
+    border-radius:5px;
+    outline:none;
+}
+#addbutton{
+    font-size:20px;
+    font-family:sans-serif;
+    padding: 8px 6px;
+    width:25%;
+    border-radius:15px;
+    outline:none;
+    position:absolute;
+    top:103%;
+    left:13%;
+    transform: translate(-50%,-50%);
+}
+#addbutton:hover{
+    background-color: rgb(3, 229, 18);
+}
+#addbutton1{
+        font-size:20px;
+        font-family:sans-serif;
+        padding: 7px 6px;
+        width:25%;
+        border-radius:13px;
+        outline:none;
+        position:absolute;
+        top:112%;
+        left:13%;
+        transform: translate(-50%,-50%);
+}
+#addbutton1:hover{
+    background-color: rgb(3, 229, 18);
+}
+.btn {
+    
+	border-radius: 10px;
+	border: 0;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin: 1rem 1rem;
+	padding: 0.3rem 1rem 0.3rem 1rem ;
+	text-transform:lowercase;
+	font-family:cursive;
+	white-space:nowrap;
+}
+.btn--primary{
+	background:rgb(6, 76, 198);
+	
+	color: rgb(255, 255, 255);
+}
+button:hover {
+	background-color: rgb(3, 229, 18);
+}
+.container1{
+    top:220%;
+    left:52%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    
+}
+.container1 p{
+    font-weight:normal;
+    font-family:sans-serif;
+    font-size:18px;
+    text-align:left;
+    transform:translate(-15%,-50%);
+    
+    padding: 0px 2px 0px 2px;
+    
+    color:rgb(3, 0, 8);
+    width: 320px;
+    background-color:#fff;
+    border-radius: 4px;
+
+}
+
+
+
+
